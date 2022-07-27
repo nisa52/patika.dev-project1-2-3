@@ -1,0 +1,35 @@
+# patika.dev projesi/proje1
+
+# insertion sort project/proje1
+
+[22,27,16,2,18,6] -> insertion sort
+
+# insertion sort aşamaları
+
+[22,27,16,2,18,6]
+[2,27,16,22,18,6]
+[2,6,16,22,18,27]
+[2,6,16,22,18,27]
+[2,6,16,18,22,27]
+[2,6,16,18,22,27]
+
+# big O notation 
+
+n.( n + 1 ) / 2  -->  ( n^2 + n ) / 2
+O(n^2)
+
+# time complexity :
+# avarage case : istenilen sayının ortalarda olması
+# best case : istenilen sayının dizinin en başında olması
+# worst case : istenilen sayının dizinin sonunda olması
+
+# dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer?
+
+[2,6,16,18,22,27] -->  18 sayısı dizinin ortalarında bulunduğu için avarage case kapsamına girer
+
+# [7,3,5,8,2,9,4,1,15,6]  dizisinin ilk dört adımını yazınız
+
+[1,3,5,8,2,9,4,7,15,6]  1. adım
+[1,2,5,8,3,9,4,7,15,6]  2. adım
+[1,2,3,8,5,9,4,7,15,6]  3. adım
+[1,2,3,4,5,9,8,7,15,6]  4. adım 
